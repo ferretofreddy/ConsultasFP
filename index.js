@@ -7,7 +7,7 @@ const path = require('path')
 const graphQlSchema = require('./graphql/schema/index')
 const graphQlResolvers = require('./graphql/resolvers/index')
 const isAuth = require('./middleware/is-auth')
-
+require('dotenv').config()
 const app = express()
 
 // MIDDLEWARE
